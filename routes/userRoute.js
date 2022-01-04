@@ -9,6 +9,7 @@ userRoute.post('/', async(req, res) => {
         const user = await User.create(req.body)
         user.save()
         res.json(user)
+        res.send("User Created")
     }
     catch(error){
         res.send("An error Occured")
