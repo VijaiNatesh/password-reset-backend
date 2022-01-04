@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "joi": "^17.5.0",
+    "mongoose": "^6.1.4",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon PASSWORD/server.js"
+  },
+  "name": "mentorstudent",
+  "version": "1.0.0",
+  "description": "mentorstudentapi",
+  "main": "server.js",
+  "author": "vijay",
+  "license": "ISC"
+}
